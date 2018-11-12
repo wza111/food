@@ -1,0 +1,253 @@
+/*
+* @Author: 王军
+* @Date:   2018-11-07 11:06:08
+* @Last Modified by:   王军
+* @Last Modified time: 2018-11-08 11:12:44
+*/
+header{
+	width: 7.5rem;
+	height: 2.24rem;
+	background: #53a6f2;
+	position: relative;
+
+}
+header .left{
+	width: 2.4rem;
+	height: 0.9rem;
+	/* background: yellow; */
+	float: left;
+	font-size: 0.28rem;
+	text-align: center;
+	line-height: 0.9rem;
+	color: #fff;
+}
+header .left i{
+	font-size: 0.26rem;
+}
+input{
+	width: 4rem;
+	height: 0.42rem;
+	float: left;
+	background: #fff;
+	border: none;
+	border-radius: 0.21rem;
+	margin: 0.28rem 0 0 0.25rem;
+	background-image: url('../img/sousuo .png');
+	background-size:0.33rem 0.43rem;
+	background-repeat: no-repeat;
+	background-position: 0.14rem ;
+	padding-left: 0.56rem;	
+}
+/* 修改input中提示性文字的颜色
+ */
+::-webkit-input-placeholder{
+			color: #b4bbc1;
+}
+header img{
+	display: block;
+	position: absolute;
+	top: 1.14rem;
+	left: 0.92rem;
+}
+.zhanwei{
+	width: 7.5rem;
+	height: 2.15rem;
+}
+nav{
+	width: 7.5rem;
+	height: 4.13rem;
+	padding-left:0.24rem;
+	padding-right:0.24rem;
+	/* background: pink; */
+}
+nav ul li{
+	height: 1.86rem;
+	width: 1.26rem;
+	/* background: yellow; */
+	float: left;
+	margin-right: 0.66rem;
+	margin-bottom: 0.3rem;
+	position: relative;
+
+}
+nav ul li:nth-child(4)
+{
+	margin-right:0rem;
+}
+nav ul li:nth-child(8)
+{
+	margin-right:0rem;
+}
+nav ul li img{
+	width: 100%;
+	height: 1.5rem;
+}
+nav ul li h6{
+
+	font-size:0.26rem;
+	display: block;
+	position: absolute;
+	left: 0.33rem;
+	bottom: 0.03rem;	
+}
+.mid{
+	height: 0.72rem;
+	width: 7.5rem;
+	padding-left: 0.24rem;
+	padding-right: 0.24rem;
+	/* background: pink; */
+	position: relative;
+}
+.mid .lan{
+	width: 0.1rem;
+	height: 0.7rem;
+	background: #53a6f2;
+	border-radius: 0.2rem;
+	float: left;
+}
+.mid h5{
+	font-size: 0.25rem;
+	margin-left: 0.1rem;
+	float: left;
+}
+.mid .ball{
+	background:#333;
+	border-radius: 50%;
+	border: 0.05rem solid #bec2bf;
+	width: 0.02rem;
+	height: 0.02rem;
+	float: left;
+	margin-top:0.15rem;
+	margin-left: 0.15rem;
+}
+.mid i{
+	font-size: 0.25rem;
+	margin-left: 0.15rem;
+	float: left;
+}
+.mid h6{
+	font-size: 0.15rem;
+	color: #a4a4a4;
+	position: absolute;
+	top: 0.6rem;
+	left: 0.45rem;
+}
+.title ul li{
+	margin-right: 0.24rem;
+	margin-left: 0.24rem;
+	width: 7.02rem;
+	height: 2.28rem;
+	/* background: pink; */
+	margin-top: 0.3rem;
+	border-radius: 0.5rem;
+	box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+	margin-bottom: 0.4rem;
+}
+.title ul li:nth-child(3){
+	margin-bottom: 1.3rem;
+
+}
+.title ul li .pic{
+	height: 1.8rem;
+	width: 3.57rem;
+	/* background: green; */
+	float: left;
+	position: relative;
+}
+.title ul li .pic img{
+	position: absolute;
+	top:0.1rem;
+	left:0.8rem;
+	width: 1.85rem;
+	height: 1.7rem;
+}
+.title ul li .box{
+	height: 1.7rem;
+	width: 3.45rem;
+	/* background: yellow; */
+	float: left;
+	margin-top: 0.15rem;
+}
+.title ul li .box h2{
+	font-size: 0.26rem;
+	font-family: 苹方;
+}
+.title ul li .box h3{
+		font-size: 0.06rem;
+		font-family: 苹方;
+}
+.title ul li .box h4{
+	font-size: 0.18rem;
+	font-family: 苹方;
+}
+.title ul li .box h5{
+	font-size: 0.18rem;
+	font-family: 苹方;
+}
+.title ul li .box h6{
+	font-size: 0.18rem;
+	font-family: 苹方;
+}
+.title ul li .fot{
+	height: 0.47rem;
+	width: 6.67rem;
+	/* background: pink; */
+	float: left;
+	margin-left: 0.2rem;
+	margin-bottom: 0.2rem;
+}
+.title ul li .fot .nax1{
+	height: 0.43rem;
+	width: 2.2rem;
+	/* background: yellow; */
+	float: left;
+	border-top:0.03rem dotted;
+	border-right:0.03rem dotted;
+	font-size: 0.22rem;
+	text-align: center;
+	line-height: 0.43rem;
+}
+.title ul li .fot .nax2{
+	height: 0.43rem;
+	width: 2.2rem;
+	/* background: blue; */
+	float: left;
+	border-top:0.03rem dotted;
+	border-right:0.03rem dotted;
+	font-size: 0.22rem;
+	text-align: center;
+	line-height:0.43rem;
+}
+.title ul li .fot .nax3{
+	height: 0.43rem;
+	width: 2.2rem;
+	/* background: green; */
+	float: left;
+	border-top:0.03rem dotted;
+	font-size: 0.22rem;
+	text-align: center;
+	line-height: 0.43rem;
+
+}
+footer{
+	width: 7.5rem;
+	height: 1.22rem;
+	/* background: green;	 */
+	position: fixed;
+	bottom:0rem;
+}
+footer ul li{
+	width: 25%;
+	height: 1.5rem;
+	/* border-right: 0.01rem solid #b0b0b0; */
+	/* background: red; */
+	float: left;
+	background: #fff;
+}
+footer ul li img{
+	height: 0.8rem;
+	width: 0.75rem;
+	display: block;
+	margin: 0 auto;
+	margin-top: 0.3rem;
+}
